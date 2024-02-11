@@ -3,19 +3,22 @@
   background-color: DodgerBlue;
   width: 225px;
   height: 150px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 #box1 {
   background-color: pink;
+  order: 2;
 }
 
 #box2 {
   background-color: lightgreen;
+  order: 0;
 }
 
 #box3 {
   background-color: lightblue;
+  order: 1;
 }
 
 .flex-container > div {

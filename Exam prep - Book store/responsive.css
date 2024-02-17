@@ -70,4 +70,22 @@
         width:100%;
         height: auto;
     }
+
+    .home-container08{
+        justify-content: space-around;
+    }
+
+    .home-footer1{
+        padding: 20px 0;
+        flex-direction: column;
+    }
+
+    .home-container09{
+        order:1000
+    }
+
+    .home-links-container{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
 }

@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.site-section.banner {
+    background-image: url("background.jpg");
+    background-color: #00052f;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    border: 2px;
+    color: #fff;
+}

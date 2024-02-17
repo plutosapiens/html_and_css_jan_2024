@@ -4,6 +4,11 @@
         font-size: 12px;
     }
 
+    .home-navbar{
+        position: static;
+        margin-bottom: 20px;
+    }
+
     .max-width-container{
         padding: 0 8px;
     }
@@ -29,7 +34,7 @@
     }
 
     .home-container{
-        padding-top: 40px;
+        padding-top: 0;
     }
     .home-cards-container{
         grid-gap: 10px;

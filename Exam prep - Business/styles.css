@@ -19,3 +19,16 @@
     border: 2px solid black;
     color: #fff;
 }
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header nav ul {
+    display: flex;
+}
+
+.site-header nav li {
+    list-style: none outside;
+}

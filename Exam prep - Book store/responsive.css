@@ -3,6 +3,11 @@
     body {
         font-size: 12px;
     }
+
+    .max-width-container{
+        padding: 0 8px;
+    }
+
     .home-header  {
         padding: 12px 0;
     }
@@ -26,4 +31,15 @@
     .home-container{
         padding-top: 40px;
     }
+    .home-cards-container{
+        grid-gap: 10px;
+    }
+    .category-card-image{
+        width: 175px;
+        height: auto;
+        aspect-ratio: 1/1;
+        margin-bottom: 10px;
+    }
+
+
 }

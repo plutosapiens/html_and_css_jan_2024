@@ -4,14 +4,18 @@
     box-sizing: border-box;
 }
 
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    border: 2px;
+}
+
 .site-section.banner {
     background-image: url("background.jpg");
     background-color: #00052f;
 }
 
-.container {
-    max-width: 1400px;
-    margin: 0 auto;
-    border: 2px;
+.site-section.banner .container {
+    border: 2px solid black;
     color: #fff;
 }

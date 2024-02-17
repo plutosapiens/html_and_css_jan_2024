@@ -8,7 +8,7 @@
 }
 
 html {
-    font: 14px/1.5 "PT Sans", sans-serif;
+    font: 20px/1.5 "PT Sans", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,8 +27,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site-section.banner .container {
-    border: 2px solid black;
     color: #fff;
+}
+
+.site-section.banner h2 {
+    font-size: 3.4em;
+    font-weight: normal;
+    line-height: 1.26em;
+    margin-bottom: 1em;
+    max-width: 13em;
+}
+
+.site-section.banner p {
+    font-size: 1.2em;
+    max-width: 39.5rem;
 }
 
 .site-section {

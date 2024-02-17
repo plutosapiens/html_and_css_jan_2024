@@ -90,10 +90,21 @@ body {
 }
 
 .site-section.associates {
-    background: #fff
+    background: #fff;
+    text-align: center;
+}
+
+
+.column-container {
+    display: flex;
+    gap: 2em;
 }
 
 .site-footer {
     background: #171720;
     color: #fff;
+}
+
+.site-footer .bordered-container {
+    border-top: 1px solid rgb(144, 144, 136);
 }

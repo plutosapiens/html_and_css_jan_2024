@@ -40,11 +40,12 @@ body {
     font-weight: normal;
     line-height: 1.26em;
     margin-bottom: 1em;
-    max-width: 13em;
+    max-width: 11.7em;
 }
 
 .site-section.banner p {
     font-size: 1.2em;
+    line-height: 1.72em;
     max-width: 39.5rem;
     
 }
@@ -86,7 +87,6 @@ body {
 
 .site-section.goals {
     background: #fff;
-
 }
 
 .site-section.associates {
@@ -94,6 +94,26 @@ body {
     text-align: center;
 }
 
+h3 {
+    font-size: 2.6em;
+    font-weight: 100;
+}
+
+.site-section.associates h3 {
+    color: goldenrod;
+}
+
+.site-section.goals p {
+    margin-bottom: 4em;
+}
+
+.site-section .button {
+    border: 1px solid goldenrod;
+    border-radius: 7px;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    color: goldenrod;
+}
 
 .column-container {
     display: flex;
@@ -103,6 +123,26 @@ body {
 .site-footer {
     background: #171720;
     color: #fff;
+}
+
+.site-footer ul {
+    font-weight: 100;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.site-footer li {
+    font-size: 0.8em;
+    color:rgb(144, 144, 136);
+    margin-bottom: 2em;
+
+}
+
+.site-footer h4 {
+    font-size: 1.2em;
+    font-weight: 100;
+    margin-bottom: 2em;
+
 }
 
 .site-footer .bordered-container {

@@ -1,0 +1,2 @@
+Screen resolution: 1920x1080 pixels
+Scale: 125%

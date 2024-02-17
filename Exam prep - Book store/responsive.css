@@ -41,5 +41,33 @@
         margin-bottom: 10px;
     }
 
+    .section-container{
+        flex-direction: column;
+        align-items: stretch;
+    }
 
+    .home-left4{
+        padding:20px 0;
+    }
+
+    .home-content{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .home-text30{
+        width: auto;
+        padding: 0 10px;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .home-text29{
+        font-size: 20px;
+    }
+
+    .home-image6{
+        width:100%;
+        height: auto;
+    }
 }

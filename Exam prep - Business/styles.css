@@ -20,10 +20,15 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
     border: 2px;
 }
-
 .site-section.banner {
-    background-image: url("background.jpg");
-    background-color: #00052f;
+    padding-bottom: 8em;
+}
+
+body {
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top center;
 }
 
 .site-section.banner .container {
@@ -51,7 +56,6 @@ h1, h2, h3, h4, h5, h6 {
 .site-header {
     display: flex;
     justify-content: space-between;
-    background-color: #00052f;
 }
 
 .site-header nav ul {
@@ -72,6 +76,15 @@ h1, h2, h3, h4, h5, h6 {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.site-section.goals {
+    background: #fff;
+
+}
+
+.site-section.associates {
+    background: #fff
 }
 
 .site-footer {

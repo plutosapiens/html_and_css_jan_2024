@@ -94,13 +94,17 @@ body {
     text-align: center;
 }
 
+.row {
+    margin-bottom: 2em;
+}
+
 h3 {
     font-size: 2.6em;
     font-weight: 100;
 }
 
 .site-section.associates h3 {
-    color: goldenrod;
+    color: goldenrod;;
 }
 
 .site-section.goals p {
@@ -118,6 +122,14 @@ h3 {
 .column-container {
     display: flex;
     gap: 2em;
+}
+
+.sponsors img {
+    margin: 50px;
+    padding: 25px;
+    border-radius: 50%;
+    background-color: rgb(222, 222, 222);
+    width: 160px;
 }
 
 .site-footer {

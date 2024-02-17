@@ -41,6 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 .site-section.banner p {
     font-size: 1.2em;
     max-width: 39.5rem;
+    
 }
 
 .site-section {
@@ -50,6 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 .site-header {
     display: flex;
     justify-content: space-between;
+    background-color: #00052f;
 }
 
 .site-header nav ul {
@@ -58,4 +60,21 @@ h1, h2, h3, h4, h5, h6 {
 
 .site-header nav li {
     list-style: none outside;
+}
+
+.site-title a {
+    display: block;
+    width: 130px;
+    height: 110px;
+    overflow: hidden;
+    text-indent: -200vw; /*vw - viewport width*/
+    background-image: url(images/logo.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.site-footer {
+    background: #171720;
+    color: #fff;
 }

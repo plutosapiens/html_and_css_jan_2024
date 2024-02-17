@@ -20,46 +20,61 @@ img{
 
 article{
     display: flex;
+    gap: 2em;
     max-width: 830px;
     margin: 0 auto;
-    border: 3px solid #000;
+    border: 5px solid #000;
     border-radius: 0.67em;
-    padding: 1.67em;
+    padding: 2.5em;
     background: #1881B6;
 }
 
 article .content{
-    flex: 1 1 auto:
+    flex: 1 1 auto;
 }
 
 article .media{
     flex: 0 0 290px;
 }
 
+article header{
+    font-size: 0.9em;
+    padding-bottom: 1.5em;
+}
+
 article header p{
+    font-size: 1.45em;
+    margin-top: 1em;
     text-transform: uppercase;
-    font-weight: bold;
-    margin-bottom: 2.83em;
+    font-weight: 700;
+    margin-bottom: 2em;
 }
 
 article header h2{
     color: #fff;
     line-height: 1;
-    font-size: 2.66em;
+    font-size: 2.75em;
     font-weight: normal;
 }
 
-article secion p{
+article section p{
+    padding-right: 1em;
+    font-weight: 500;
     line-height: 2;
+    margin-bottom: 1.5em;
+    text-indent: 3em;
 }
 
 article .buttons{
     display: flex;
+    justify-content: space-evenly;
 }
 
 article .button{
+    font-size: 0.8em;
     display: block;
     padding: 5px 15px;
+    font-weight: 700;
     border: 1px solid #000;
     border-radius: 4px;
     color: #000;

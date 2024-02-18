@@ -18,16 +18,17 @@ h1, h2, h3, h4, h5, h6 {
 body {
     background-image: url("images/poster.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw; /* Ensure the background image covers the entire viewport */
+    background-size: 100vw;
     background-position: top center;
 }
+
 body::before {
     content: "";
-    position: fixed; /* Change to fixed position */
+    position: fixed;
     top: 0;
     left: 0;
-    width: 100vw; /* Set width to 100% of viewport width */
-    height: 100vh; /* Set height to 100% of viewport height */
+    width: 100vw;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.378);
     z-index: -3;
 }
@@ -160,8 +161,8 @@ body::before {
     margin-bottom: 2em;
 }
 .article-preview .read-more {
-    margin-left: 0; /* Reset margin */
-    margin-right: auto; /* Move the button to the left */
+    margin-left: 0;
+    margin-right: auto;
 
 }
 .read-more {
@@ -176,25 +177,25 @@ body::before {
 .container.articles .button {
     background-color: #fff;
     display: block;
-    margin: 4em auto; /* Center the buttons horizontally */
+    margin: 4em auto;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 7px;
     padding: 0.5em 1.5em;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    max-width: 30rem; /* Set the maximum width */
+    max-width: 30rem;
 
 }
 
 .container.action .button {
     background-color: #FAD87A;
     display: block;
-    margin: 4em auto; /* Center the buttons horizontally */
+    margin: 4em auto;
     border-radius: 20px;
     padding: 0.5em 1.5em;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    max-width: 30rem; /* Set the maximum width */
+    max-width: 30rem;
 }
 
 .site-section.action {
@@ -208,12 +209,13 @@ body::before {
     color: #fff;
     font-size: 4.1em;
     font-weight: 700;
-    /* max-width: 30rem; */
     margin: 1em auto 1em auto;
 }
+
 .action{
     align-items: center;
 }
+
 .site-section.action p {
     text-align: center;
     color: #fff;
@@ -232,7 +234,7 @@ body::before {
     width: 70px;
     height: 110px;
     overflow: hidden;
-    text-indent: -200vw; /*vw - viewport width*/
+    text-indent: -200vw;
     background-image: url(images/logo.webp);
     background-size: contain;
     background-position: top;
@@ -268,6 +270,7 @@ footer {
     padding-left: 4em;
     padding-bottom: 4em;
 
+    
 }
 .copyright-footer p {
     color: #ffffff47;

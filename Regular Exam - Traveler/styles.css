@@ -92,7 +92,7 @@ body::before {
 .site-section.testimonial {
     
     justify-content: flex-start;
-    background-color: #fff;
+    background-color: #F8F0E9;
 }
 
 .site-section.testimonial h2 {
@@ -128,7 +128,7 @@ body::before {
 }
 
 .site-section.articles {
-    background-color: #fff;
+    background-color: #F8F0E9;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -173,9 +173,31 @@ body::before {
     padding: 0.5em 1.5em;
     text-decoration: none;
     color: rgb(0, 0, 0);
+    background-color: #fff;
 }
 
+.container.articles .button {
+    background-color: #fff;
+    display: block;
+    margin: 0 auto; /* Center the buttons horizontally */
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 7px;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    max-width: 30rem; /* Set the maximum width */
+}
 
+.container.action .button {
+    background-color: #FAD87A;
+    display: block;
+    margin: 0 auto; /* Center the buttons horizontally */
+    border-radius: 20px;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    max-width: 30rem; /* Set the maximum width */
+}
 
 .site-section.action {
     background-color: #E14747;

@@ -2,19 +2,46 @@
     ul {
         display: flex;
         flex-direction: column;
+        font-size: 1em;
+        padding: 1.3em 0;
+
+        line-height: 2em;
     }
 
     li {
         text-align: center;
     }
 
+
     .header-title {
-        padding-top: 0.5em;
+        padding-top: 1em;
     }
 
     .header-title h1 {
-        font-size: 1.8em;
+        font-size: 2.2em;
+        margin-bottom: 1em;
+    }
+
+    .header-title p {
+        font-size: 1.1em;
+        padding: 0 1.5em;
+        padding-bottom: 5em;
     }
 
 
+    .choose-us ul {
+        padding: 1.3em 5em;
+    }
+
+    .choose-us li {
+        font-size: 1em;
+        font-weight: 100;
+        line-height: 1em;
+        padding-bottom: 2em;
+    }
+
+    .about-us p:nth-child(3) {
+        width: 100%;
+        font-size: 0.8em;
+    }
 }

@@ -15,18 +15,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Cormorant Infant";
 }
 
-.container {
-    color: black;
-    max-width: 410px;
-    margin: 0 auto;
-    border: 2px;
+body {
+    background-image: url("images/poster.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top center;
 }
-
-
-.main  {
-    color: #fff;
-}
-
 
 .site-header {
     display: flex;
@@ -46,6 +40,51 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     color: #000000;
 }
+
+.container {
+    color: black;
+    max-width: 1100px;
+    margin: 0 auto;
+    border: 2px;
+}
+
+
+.site-section.banner {
+    margin: 10em;
+}
+.site-section.banner h2 {
+    font-size: 3.4em;
+    font-weight: normal;
+    line-height: 1.26em;
+    margin-bottom: 1em;
+    max-width: 11.7em;
+    color: #fff;
+}
+
+.site-section.banner p {
+    font-size: 1.2em;
+    line-height: 1.72em;
+    max-width: 39.5rem;
+    color: #fff;
+    
+}
+
+.site-section.testimonial {
+    background-color: #fff;
+}
+
+.site-section.support {
+    background-color: #E14747;
+}
+
+.site-section.articles {
+    background-color: #fff;
+}
+
+.site-section.action {
+    background-color: #E14747;
+}
+
 .site-title a {
     display: block;
     width: 130px;
@@ -56,4 +95,12 @@ h1, h2, h3, h4, h5, h6 {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+
+
+.article-preview img {
+    margin: 50px;
+    padding: 25px;
+    width: 560px;
 }

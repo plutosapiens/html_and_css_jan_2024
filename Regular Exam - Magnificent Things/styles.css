@@ -9,7 +9,7 @@
 }
 
 html{
-    font: 12px/1.5 "Inter", sans-serif;
+    font: 14px/1.5 "Inter", sans-serif;
 }
 
 body{
@@ -24,6 +24,7 @@ img{
 
 article{
     display: flex;
+    align-items: center;
     gap: 2em;
     max-width: 1060px;
     margin: 0 auto;
@@ -41,7 +42,7 @@ article .media{
 article header{
     max-width: 450px;
     font-size: 0.9em;
-    padding-bottom: 1.5em;
+    margin-bottom: 3em;
 }
 
 
@@ -55,9 +56,8 @@ article header h2{
 article section p{
     padding-right: 1em;
     font-weight: 500;
-    line-height: 2;
+    line-height: 0;
     margin-bottom: 1.5em;
-    text-indent: 3em;
 }
 
 article .buttons{

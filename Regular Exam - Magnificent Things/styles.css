@@ -20,6 +20,7 @@ img{
     display: block;
     width: 100%;
     height: auto;
+    box-shadow: rgba(0, 0, 0, 0.112) 0px 4px 16px, rgba(0, 0, 0, 0.684) 4.2px 4.2px 8.2px;
 }
 
 article{
@@ -50,7 +51,7 @@ article header h2{
     color: #2A0000;
     line-height: 1;
     font-size: 43px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 article section p{
@@ -78,6 +79,13 @@ article .button{
 
 article .button.colored{
     background-color: #42AA59;
+    color: #2A0000;
+    border: 1px solid #2A0000;
+}
+
+article .button.colored:hover{
+    background-color: #2A0000;
     color: #fff;
+    border: 1px solid #2A0000;
 }
 

@@ -246,22 +246,31 @@ body::before {
 }
 
 footer {
-    background: #171720;
-    color: #fff;
+    background: #352B2A;
 }
 
+.main-footer {
+    padding-top: 3em;
+    padding-left: 4em;
+}
 .footer-img img {
     width: 50px;
 }
 
 .main-footer p {
+    color: #fff;
     font-size: 1.2em;
     font-weight: 100;
-    margin-bottom: 2em;
+    margin: 2em 0;
 }
 
+.copyright-footer {
+    padding-left: 4em;
+    padding-bottom: 4em;
+
+}
 .copyright-footer p {
+    color: #ffffff47;
     font-size: 1.2em;
     font-weight: 100;
-    margin-bottom: 2em;
 }

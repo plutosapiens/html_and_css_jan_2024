@@ -56,21 +56,21 @@ article header h2{
 article section p{
     padding-right: 1em;
     font-weight: 500;
-    line-height: 0;
-    margin-bottom: 1.5em;
+    line-height: 1.5;
 }
 
 article .buttons{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: left;
+    gap: 0.6em;
+    margin-top: 2em;
 }
 
 article .button{
     background-color: #FFFFFF;
-    font-size: 0.8em;
     display: block;
-    padding: 5px 15px;
-    font-weight: 700;
+    padding: 0.8em 2.3em;
+    font-weight: 500;
     border-radius: 4px;
     color: #2A0000;
     text-decoration: none;

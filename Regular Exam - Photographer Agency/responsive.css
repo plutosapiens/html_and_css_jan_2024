@@ -1,5 +1,5 @@
 @media (max-width: 600px){
-    ul {
+    nav ul {
         display: flex;
         flex-direction: column;
         font-size: 1em;
@@ -8,7 +8,7 @@
         line-height: 2em;
     }
 
-    li {
+    nav ul li {
         text-align: center;
     }
 
@@ -30,6 +30,12 @@
 
 
     .choose-us ul {
+        display: flex;
+        flex-direction: column;
+        font-size: 1em;
+        padding: 1.3em 0;
+
+        line-height: 2em;
         padding: 1.3em 5em;
     }
 
@@ -43,5 +49,21 @@
     .about-us p:nth-child(3) {
         width: 100%;
         font-size: 0.8em;
+    }
+
+    .team-description ul {
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .team-description ul li {
+        padding: 1em;
+        font-size: 0.7em;
+    }
+
+    .team-description ul li img {
+        width: 100px;
+        height: auto;
     }
 }

@@ -65,7 +65,7 @@ body::before {
     border: 2px;
 }
 
-.welcome-banner{
+.welcome-banner, .support{
     align-items: center;
 }
 
@@ -111,6 +111,22 @@ body::before {
 .site-section.support {
     background-color: #E14747;
 }
+
+.site-section.support h4 {
+    font-family: "Karla";
+    font-size: 1.5em;
+    color: #fff;
+    padding: 2em;
+}
+
+.site-section.support p {
+    font-weight: 100;
+    color: #fff;
+    padding-bottom: 3.5em;
+    max-width: 250px;
+    text-align: center;
+}
+
 
 .site-section.articles {
     background-color: #fff;

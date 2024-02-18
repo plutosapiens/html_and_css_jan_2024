@@ -104,3 +104,23 @@ body {
     padding: 25px;
     width: 560px;
 }
+
+footer {
+    background: #171720;
+    color: #fff;
+}
+
+.footer-img img {
+    width: 50px;
+}
+
+.main-footer p {
+    font-size: 1.2em;
+    font-weight: 100;
+    margin-bottom: 2em;
+}
+.copyright-footer p {
+    font-size: 1.2em;
+    font-weight: 100;
+    margin-bottom: 2em;
+}
